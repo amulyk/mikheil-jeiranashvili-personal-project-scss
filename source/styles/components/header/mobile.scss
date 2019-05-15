@@ -1,3 +1,24 @@
-.header {
-    background: yellow;
+.one {
+
+    .row {
+
+        .column-1 {
+            width: 271px;
+            background-color: #FF4242;
+        }
+    }
+
+    .wrapper {
+        position: absolute;
+        width: 271px;
+        height: 100%;
+    }
+
+    .row-1 {
+
+        .wrapper::before {
+            left: -271px;
+            width: 2000px;
+        }
+    }
 }
