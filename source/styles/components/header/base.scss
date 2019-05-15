@@ -1,6 +1,6 @@
 .one {
     width: 100%;
-    height: 485px;
+    height: 484px;
     background-color: #EEEEEE;
 
     .row {
@@ -10,9 +10,144 @@
         justify-content: center;
         height: 422px;
 
+        .wrapper {
+            display: flex;
+            flex-direction: row;
+        }
+
         .column-1 {
+            display: flex;
             position: relative;
+            flex-direction: column;
             height: 100%;
+
+            .contentlist {
+                display: flex;
+                position: relative;
+                flex-direction: column;
+
+                span {
+                    width: 84px;
+                    margin-top: 28px;
+                    margin-left: 1px;
+                    padding: 5px 8px 5px 9px;
+                    background-color: #111111;
+                    color: #FFFFFF;
+                    font-family: 'Montserrat';
+                    font-size: 10px;
+                    text-transform: uppercase;
+                }
+
+                .mediumletters {
+                    margin-top: 7px;
+                    margin-left: 4px;
+                    color: #FFFFFF;
+                    font-family: 'Montserrat';
+                    font-size: 22px;
+                    font-weight: bold;
+                    letter-spacing: -.05rem;
+                }
+
+                .bigletters {
+                    margin-left: 4px;
+                    color: #FFFFFF;
+                    font-family: 'Montserrat';
+                    font-size: 26px;
+                    font-weight: bold;
+                    letter-spacing: -.08rem;
+                }
+
+                .special {
+                    margin-top: -16px;
+                    margin-left: 2px;
+                    color: #FFFFFF;
+                    font-family: 'Montserrat';
+                    font-size: 18px;
+                    line-height: 90px;
+                    text-transform: uppercase;
+
+                    &::before {
+                        content: url(../../../images/Shape12.svg);
+                        margin-right: 2px;
+                        vertical-align: -4px;
+                    }
+                }
+            }
+
+            .buttonlist {
+                position: relative;
+                justify-content: flex-end;
+                margin-top: 18px;
+
+                .cl {
+                    position: absolute;
+                    height: 40.5px;
+                    border: 1px solid #707070;
+
+                    &.eye {
+                        right: 87px;
+                        padding: 11px 12px 0 10px;
+
+                        &::before {
+                            content: url(../../../images/b1.svg);
+                        }
+                    }
+
+                    &.pic {
+                        right: 43px;
+                        padding: 9px 12px 0 10px;
+
+                        &::before {
+                            content: url(../../../images/b2.svg);
+                        }
+                    }
+
+                    &.loc {
+                        right: 0;
+                        padding: 8px 14px 0 13px;
+                        border-right: none;
+
+                        &::before {
+                            content: url(../../../images/b3.svg);
+                        }
+                    }
+
+                    &:hover {
+
+                        &.eye {
+
+                            &::before {
+                                content: url(../../../images/b1h.png);
+                            }
+                        }
+
+                        &.pic {
+
+                            &::before {
+                                content: url(../../../images/b2h.png);
+                            }
+                        }
+
+                        &.loc {
+
+                            &::before {
+                                content: url(../../../images/b3h.png);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .borger {
+            height: 28px;
+            padding: 14px 17px;
+            border: #707070 solid 1px;
+            background-color: #111111;
+
+            &::before {
+                content: url(../../../images/IconCopy8.svg);
+            }
         }
     }
 
@@ -33,7 +168,6 @@
                 display: flex;
                 z-index: 1;
                 flex-direction: row;
-                width: 120px;
             }
         }
 
@@ -43,5 +177,20 @@
             height: 100%;
             background-color: #111111;
         }
+    }
+}
+
+.two {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 524px;
+    background-color: #DBDBDB;
+
+    .wraper {
+        display: flex;
+        justify-content: flex-end;
     }
 }
