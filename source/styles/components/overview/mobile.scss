@@ -1,0 +1,72 @@
+.overview {
+
+    .wraper {
+        position: absolute;
+        width: 271px;
+
+        .columnmain {
+
+            .contentmain {
+                margin-top: 41px;
+
+                h1 {
+                    margin-bottom: -6px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 24px;
+                    font-weight: bold;
+                    letter-spacing: -.025rem;
+                    text-align: center;
+                }
+
+                .row {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 26px;
+                    margin-left: 3px;
+
+                    .text-1 {
+                        width: 100%;
+                        margin-top: 4px;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 18px;
+                        font-weight: lighter;
+                        line-height: 30px;
+                        text-align: center;
+                    }
+
+                    .text-2 {
+                        width: 267px;
+                        margin-top: -3px;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 14px;
+                        font-weight: lighter;
+                        line-height: 20px;
+                        text-align: center;
+                    }
+
+                    .text-3 {
+                        width: 260px;
+                        margin-top: 14px;
+                        margin-left: 4px;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 14px;
+                        font-weight: lighter;
+                        line-height: 18px;
+                        text-align: center;
+                    }
+
+                    .text-4 {
+                        width: 266px;
+                        margin-top: -7px;
+                        margin-left: 1px;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 14px;
+                        font-weight: lighter;
+                        line-height: 20px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,4 +1,4 @@
-.one {
+.header {
 
     .row {
 
@@ -9,13 +9,14 @@
             .contentlist {
                 padding-left: 33px;
 
-                h1 {
+                .mrExhibit {
                     color: color(3);
                     font-family: 'Montserrat', sans-serif;
                     font-size: 18px;
                     font-weight: bold;
                     letter-spacing: -.02rem;
                     line-height: 80px;
+                    text-decoration: none;
                     text-transform: uppercase;
 
                     &::before {
@@ -37,8 +38,8 @@
                     width: 89%;
                     margin-top: 14px;
                     padding: 17px 3px 20px;
-                    border-top: 1px solid color(4);
-                    border-bottom: 1px solid color(4);
+                    border-top: 1px solid color(3);
+                    border-bottom: 1px solid color(3);
 
                     .middletext {
                         width: 77%;
@@ -47,28 +48,6 @@
                         font-size: 16px;
                         font-weight: lighter;
                         line-height: 20px;
-                    }
-                }
-            }
-
-            .buttonlist {
-
-                .cl {
-                    margin-top: -2px;
-
-                    &.eye {
-                        right: 85px;
-                        padding-top: 13px;
-                    }
-
-                    &.pic {
-                        right: 41px;
-                        padding-top: 11px;
-                    }
-
-                    &.loc {
-                        right: 0;
-                        padding: 11px 14px 0 11px;
                     }
                 }
             }
@@ -97,7 +76,7 @@
                 border-left: 1px solid color(4);
 
                 &.left::before {
-                    content: url(../../../images/Left.svg);
+                    content: url(/images/Left.svg);
                     position: absolute;
                     width: 14px;
                     height: 23px;
@@ -106,7 +85,7 @@
                 }
 
                 &.right::before {
-                    content: url(../../../images/Right.svg);
+                    content: url(/images/Right.svg);
                     position: absolute;
                     width: 14px;
                     height: 23px;
@@ -117,81 +96,17 @@
                 &:hover {
 
                     &.left::before {
-                        content: url(../../../images/Lefth.svg);
+                        content: url(/images/Lefth.svg);
                     }
 
                     &.right::before {
-                        content: url(../../../images/Righth.svg);
+                        content: url(/images/Righth.svg);
                     }
                 }
 
                 &:last-child {
                     width: 56px;
                     border-right: 1px solid color(4);
-                }
-            }
-        }
-    }
-}
-
-.two {
-
-    .wraper {
-        position: absolute;
-        width: 693px;
-
-        .columnmain {
-            width: 643.5px;
-
-            .contentmain {
-                margin-top: 43px;
-
-                h1 {
-                    margin-bottom: 43px;
-                    font-family: 'Montserrat', sans-serif;
-                    font-size: 30px;
-                    font-weight: bold;
-                    letter-spacing: -.025rem;
-                }
-
-                .row {
-                    display: flex;
-                    flex-direction: row;
-                    margin-top: 30px;
-                    margin-left: -1px;
-
-                    .text-1 {
-                        width: 95%;
-                        font-family: 'Open Sans', sans-serif;
-                        font-size: 20px;
-                        font-weight: lighter;
-                        line-height: 30px;
-                    }
-
-                    .text-2 {
-                        width: 260px;
-                        margin-right: 35px;
-                        font-family: 'Open Sans', sans-serif;
-                        font-size: 14px;
-                        font-weight: lighter;
-                        line-height: 20px;
-                    }
-
-                    .text-3 {
-                        width: 299px;
-                        font-family: 'Open Sans', sans-serif;
-                        font-size: 14px;
-                        font-weight: lighter;
-                        line-height: 18px;
-                    }
-
-                    .text-4 {
-                        width: 595px;
-                        font-family: 'Open Sans', sans-serif;
-                        font-size: 14px;
-                        font-weight: lighter;
-                        line-height: 20px;
-                    }
                 }
             }
         }

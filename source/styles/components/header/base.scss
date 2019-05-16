@@ -1,6 +1,6 @@
 @import 'palette';
 
-.one {
+.header {
     width: 100%;
     height: 484px;
     background-color: color(1);
@@ -60,16 +60,16 @@
                 }
 
                 .special {
-                    margin-top: -16px;
+                    margin-top: 18px;
                     margin-left: 2px;
                     color: color(3);
                     font-family: 'Montserrat', sans-serif;
                     font-size: 18px;
-                    line-height: 90px;
+                    text-decoration: none;
                     text-transform: uppercase;
 
                     &::before {
-                        content: url(../../../images/Shape12.svg);
+                        content: url(/images/Shape12.svg);
                         margin-right: 2px;
                         vertical-align: -4px;
                     }
@@ -77,40 +77,49 @@
             }
 
             .buttonlist {
-                position: relative;
+                position: absolute;
+                right: 0;
+                bottom: 0;
                 justify-content: flex-end;
-                margin-top: 18px;
+                height: 43px;
 
                 .cl {
                     position: absolute;
-                    height: 40.5px;
-                    border: 1px solid color(4);
+                    padding-top: 10px;
+                    border: 1px solid color(3);
 
                     &.eye {
-                        right: 87px;
-                        padding: 11px 12px 0 10px;
+                        right: 85px;
+                        width: 43px;
+                        height: 29px;
+                        padding-top: 13px;
 
                         &::before {
-                            content: url(../../../images/b1.svg);
+                            content: url(/images/b1.svg);
+                            padding-left: 9px;
                         }
                     }
 
                     &.pic {
-                        right: 43px;
-                        padding: 9px 12px 0 10px;
+                        right: 41px;
+                        width: 43px;
+                        height: 32px;
 
                         &::before {
-                            content: url(../../../images/b2.svg);
+                            content: url(/images/b2.svg);
+                            padding-left: 10px;
                         }
                     }
 
                     &.loc {
                         right: 0;
-                        padding: 8px 14px 0 13px;
+                        width: 41px;
+                        height: 32px;
                         border-right: none;
 
                         &::before {
-                            content: url(../../../images/b3.svg);
+                            content: url(/images/b3.svg);
+                            padding-left: 12px;
                         }
                     }
 
@@ -119,21 +128,21 @@
                         &.eye {
 
                             &::before {
-                                content: url(../../../images/b1h.png);
+                                content: url(/images/b1h.png);
                             }
                         }
 
                         &.pic {
 
                             &::before {
-                                content: url(../../../images/b2h.png);
+                                content: url(/images/b2h.png);
                             }
                         }
 
                         &.loc {
 
                             &::before {
-                                content: url(../../../images/b3h.png);
+                                content: url(/images/b3h.png);
                             }
                         }
                     }
@@ -148,7 +157,7 @@
             background-color: color(2);
 
             &::before {
-                content: url(../../../images/IconCopy8.svg);
+                content: url(/images/IconCopy8.svg);
             }
         }
     }
@@ -179,23 +188,5 @@
             height: 100%;
             background-color: color(2);
         }
-    }
-}
-
-.two {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    height: 524px;
-    overflow: hidden;
-    background-color: color(3);
-
-    .wraper {
-        display: flex;
-        position: relative;
-        justify-content: flex-end;
-        height: 100%;
     }
 }
