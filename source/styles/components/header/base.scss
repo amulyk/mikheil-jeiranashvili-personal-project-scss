@@ -29,7 +29,7 @@
                 flex-direction: column;
 
                 span {
-                    width: 84px;
+                    width: 100px;
                     margin-top: 28px;
                     margin-left: 1px;
                     padding: 5px 8px 5px 9px;
@@ -89,9 +89,9 @@
                     border: 1px solid color(3);
 
                     &.eye {
-                        right: 85px;
-                        width: 43px;
-                        height: 29px;
+                        right: 86px;
+                        width: 45px;
+                        height: 44px;
                         padding-top: 13px;
 
                         &::before {
@@ -101,9 +101,9 @@
                     }
 
                     &.pic {
-                        right: 41px;
-                        width: 43px;
-                        height: 32px;
+                        right: 42px;
+                        width: 45px;
+                        height: 44px;
 
                         &::before {
                             content: url(/images/b2.svg);
@@ -113,8 +113,8 @@
 
                     &.loc {
                         right: 0;
-                        width: 41px;
-                        height: 32px;
+                        width: 43px;
+                        height: 44px;
                         border-right: none;
 
                         &::before {
@@ -151,7 +151,7 @@
         }
 
         .borger {
-            height: 28px;
+            height: 58px;
             padding: 14px 17px;
             border: color(4) solid 1px;
             background-color: color(2);
