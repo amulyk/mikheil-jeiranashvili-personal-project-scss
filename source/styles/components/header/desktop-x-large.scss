@@ -4,14 +4,14 @@
 
         .column-1 {
             width: 350px;
-            background-color: #ED1C24;
+            background-color: color(6);
 
             .contentlist {
                 padding-left: 33px;
 
                 h1 {
-                    color: #FFFFFF;
-                    font-family: 'Montserrat';
+                    color: color(3);
+                    font-family: 'Montserrat', sans-serif;
                     font-size: 18px;
                     font-weight: bold;
                     letter-spacing: -.02rem;
@@ -25,9 +25,9 @@
                         margin-right: 8px;
                         padding-right: 9px;
                         padding-left: 9px;
-                        border: #FFFFFF 3px solid;
+                        border: color(3) 3px solid;
                         border-radius: 1px;
-                        color: #FFFFFF;
+                        color: color(3);
                         font-size: 32px;
                         vertical-align: -14px;
                     }
@@ -37,13 +37,13 @@
                     width: 87%;
                     margin-top: 14px;
                     padding: 17px 2px 20px;
-                    border-top: 1px solid #707070;
-                    border-bottom: 1px solid #707070;
+                    border-top: 1px solid color(4);
+                    border-bottom: 1px solid color(4);
 
                     .middletext {
                         width: 77%;
-                        color: #FFFFFF;
-                        font-family: 'Open Sans';
+                        color: color(3);
+                        font-family: 'Open Sans', sans-serif;
                         font-size: 16px;
                         font-weight: lighter;
                         line-height: 20px;
@@ -74,7 +74,7 @@
                 a {
                     width: 57px;
                     height: 100%;
-                    border-left: 1px solid #707070;
+                    border-left: 1px solid color(4);
 
                     &.left::before {
                         content: url(../../../images/Left.svg);
@@ -82,7 +82,7 @@
                         width: 14px;
                         height: 23px;
                         margin: 20px 22px;
-                        color: #FFFFFF;
+                        color: color(3);
                     }
 
                     &.right::before {
@@ -91,7 +91,7 @@
                         width: 14px;
                         height: 23px;
                         margin: 20px 22px;
-                        color: #FFFFFF;
+                        color: color(3);
                     }
 
                     &:hover {
@@ -107,7 +107,7 @@
 
                     &:last-child {
                         width: 56px;
-                        border-right: 1px solid #707070;
+                        border-right: 1px solid color(4);
                     }
                 }
             }
@@ -127,13 +127,13 @@
             right: 653px;
             width: 2000px;
             height: 100%;
-            background-color: #DBDBDB;
+            background-color: color(5);
         }
 
         .columngray {
             z-index: 1;
             width: 350px;
-            background: #898989;
+            background: color(7);
         }
 
         .columnmain {
@@ -145,7 +145,7 @@
 
                 h1 {
                     margin-bottom: 43px;
-                    font-family: 'Montserrat';
+                    font-family: 'Montserrat', sans-serif;
                     font-size: 30px;
                     font-weight: bold;
                     letter-spacing: -.025rem;
@@ -159,7 +159,7 @@
 
                     .text-1 {
                         width: 95%;
-                        font-family: 'Open Sans';
+                        font-family: 'Open Sans', sans-serif;
                         font-size: 20px;
                         font-weight: lighter;
                         line-height: 30px;
@@ -168,7 +168,7 @@
                     .text-2 {
                         width: 260px;
                         margin-right: 33px;
-                        font-family: 'Open Sans';
+                        font-family: 'Open Sans', sans-serif;
                         font-size: 14px;
                         font-weight: lighter;
                         line-height: 20px;
@@ -176,7 +176,7 @@
 
                     .text-3 {
                         width: 299px;
-                        font-family: 'Open Sans';
+                        font-family: 'Open Sans', sans-serif;
                         font-size: 14px;
                         font-weight: lighter;
                         line-height: 18px;
@@ -184,7 +184,7 @@
 
                     .text-4 {
                         width: 540px;
-                        font-family: 'Open Sans';
+                        font-family: 'Open Sans', sans-serif;
                         font-size: 14px;
                         font-weight: lighter;
                         line-height: 20px;
