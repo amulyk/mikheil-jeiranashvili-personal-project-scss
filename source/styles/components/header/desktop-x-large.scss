@@ -118,10 +118,79 @@
 .two {
 
     .wraper {
+        position: absolute;
+        width: 1003px;
+
+        &::before {
+            content: ' ';
+            position: absolute;
+            right: 653px;
+            width: 2000px;
+            height: 100%;
+            background-color: #DBDBDB;
+        }
 
         .columngray {
+            z-index: 1;
             width: 350px;
             background: #898989;
+        }
+
+        .columnmain {
+            width: 653px;
+
+            .contentmain {
+                margin-top: 43px;
+                margin-left: 48px;
+
+                h1 {
+                    margin-bottom: 43px;
+                    font-family: 'Montserrat';
+                    font-size: 30px;
+                    font-weight: bold;
+                    letter-spacing: -.025rem;
+                }
+
+                .row {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 30px;
+                    margin-left: -1px;
+
+                    .text-1 {
+                        width: 95%;
+                        font-family: 'Open Sans';
+                        font-size: 20px;
+                        font-weight: lighter;
+                        line-height: 30px;
+                    }
+
+                    .text-2 {
+                        width: 260px;
+                        margin-right: 33px;
+                        font-family: 'Open Sans';
+                        font-size: 14px;
+                        font-weight: lighter;
+                        line-height: 20px;
+                    }
+
+                    .text-3 {
+                        width: 299px;
+                        font-family: 'Open Sans';
+                        font-size: 14px;
+                        font-weight: lighter;
+                        line-height: 18px;
+                    }
+
+                    .text-4 {
+                        width: 540px;
+                        font-family: 'Open Sans';
+                        font-size: 14px;
+                        font-weight: lighter;
+                        line-height: 20px;
+                    }
+                }
+            }
         }
     }
 }
