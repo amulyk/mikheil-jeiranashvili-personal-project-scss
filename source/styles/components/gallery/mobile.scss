@@ -1,0 +1,26 @@
+.gallery {
+    padding: 40px 0 34px;
+
+    .wrap {
+        grid-gap: 36px 0;
+        grid-template-columns: 271.21px;
+        grid-template-rows: auto 190.92px;
+        width: 271.21px;
+
+        & > figure {
+            grid-column: 1;
+            height: 190.92px;
+        }
+
+        & > h3 {
+            grid-row: 1 / 2;
+            transform: translate(1px, -2px);
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .images {
+            display: none;
+        }
+    }
+}

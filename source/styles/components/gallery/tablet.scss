@@ -1,0 +1,26 @@
+.gallery {
+    padding: 46px 0 52px;
+
+    .wrap {
+        grid-gap: 23px 0;
+        grid-template-columns: 591.6px;
+        width: 591.6px;
+
+        & > figure {
+            grid-column: 1;
+            height: 295.91px;
+        }
+
+        & > h3 {
+            grid-row: 1 / 2;
+            transform: translate(-4px, -2px);
+        }
+
+        .images {
+            grid-gap: 21.4px 14px;
+            grid-template-columns: repeat(5, 1fr);
+            height: 100.9px;
+            overflow: hidden;
+        }
+    }
+}

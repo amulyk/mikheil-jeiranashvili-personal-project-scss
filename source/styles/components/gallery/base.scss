@@ -1,0 +1,62 @@
+@import 'palette';
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 53px 0 61px;
+    background: color(2);
+
+    .wrap {
+        display: grid;
+        grid-auto-rows: auto;
+        grid-gap: 34px 29.6px;
+        grid-template-columns: 621.82px 351.64px;
+        width: 1003px;
+
+        & > figure {
+            grid-row: span 2;
+            height: 408.76px;
+            background: color(3);
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        & > h3 {
+            transform: translateY(-2px);
+            color: color(9);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .images {
+            display: grid;
+            grid-auto-rows: auto;
+            grid-gap: 21.4px 15.3px;
+            grid-template-columns: repeat(3, 1fr);
+
+            figure {
+                width: 107.02px;
+                height: 100.9px;
+                background: color(3);
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                &:hover {
+                    border: 7px solid color(6);
+                    border-radius: 2px;
+                    box-shadow: inset 0 0 15px rgba(0, 0, 0, .5);
+                }
+            }
+        }
+    }
+}
