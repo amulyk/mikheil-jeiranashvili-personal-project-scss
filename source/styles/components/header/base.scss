@@ -9,8 +9,14 @@
         display: flex;
         position: relative;
         flex-direction: row;
+        align-items: center;
         justify-content: center;
         height: 422px;
+        overflow: hidden;
+
+        .headerimg {
+            position: absolute;
+        }
 
         .wrapper {
             display: flex;
@@ -22,6 +28,7 @@
             position: relative;
             flex-direction: column;
             height: 100%;
+            opacity: .9;
 
             .contentlist {
                 display: flex;
@@ -69,7 +76,7 @@
                     text-transform: uppercase;
 
                     &::before {
-                        content: url(/images/Shape12.svg);
+                        content: url(/images/header/shape12.svg);
                         margin-right: 2px;
                         vertical-align: -4px;
                     }
@@ -95,7 +102,7 @@
                         padding-top: 13px;
 
                         &::before {
-                            content: url(/images/b1.svg);
+                            content: url(/images/header/b1.svg);
                             padding-left: 9px;
                         }
                     }
@@ -106,7 +113,7 @@
                         height: 44px;
 
                         &::before {
-                            content: url(/images/b2.svg);
+                            content: url(/images/header/b2.svg);
                             padding-left: 10px;
                         }
                     }
@@ -118,7 +125,7 @@
                         border-right: none;
 
                         &::before {
-                            content: url(/images/b3.svg);
+                            content: url(/images/header/b3.svg);
                             padding-left: 12px;
                         }
                     }
@@ -128,21 +135,21 @@
                         &.eye {
 
                             &::before {
-                                content: url(/images/b1h.png);
+                                content: url(/images/header/b1h.png);
                             }
                         }
 
                         &.pic {
 
                             &::before {
-                                content: url(/images/b2h.png);
+                                content: url(/images/header/b2h.png);
                             }
                         }
 
                         &.loc {
 
                             &::before {
-                                content: url(/images/b3h.png);
+                                content: url(/images/header/b3h.png);
                             }
                         }
                     }
@@ -157,7 +164,7 @@
             background-color: color(2);
 
             &::before {
-                content: url(/images/IconCopy8.svg);
+                content: url(/images/header/iconcopy8.svg);
             }
         }
     }

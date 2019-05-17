@@ -78,7 +78,7 @@
         }
 
         .rblock-1 {
-            margin-right: 2px;
+            margin-right: 5px;
 
             a {
                 width: 57px;
@@ -86,7 +86,7 @@
                 border-left: 1px solid color(4);
 
                 &.left::before {
-                    content: url(/images/Left.svg);
+                    content: url(/images/header/left.svg);
                     position: absolute;
                     width: 14px;
                     height: 23px;
@@ -95,7 +95,7 @@
                 }
 
                 &.right::before {
-                    content: url(/images/Right.svg);
+                    content: url(/images/header/right.svg);
                     position: absolute;
                     width: 14px;
                     height: 23px;
@@ -106,11 +106,11 @@
                 &:hover {
 
                     &.left::before {
-                        content: url(/images/Lefth.svg);
+                        content: url(/images/header/lefth.svg);
                     }
 
                     &.right::before {
-                        content: url(/images/Righth.svg);
+                        content: url(/images/header/righth.svg);
                     }
                 }
 

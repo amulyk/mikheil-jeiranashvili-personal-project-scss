@@ -18,6 +18,12 @@
             z-index: 1;
             width: 350px;
             background: color(7);
+
+            img {
+                display: block;
+                width: 350px;
+                height: 100%;
+            }
         }
 
         .columnmain {
@@ -47,6 +53,7 @@
                         font-size: 20px;
                         font-weight: lighter;
                         line-height: 30px;
+                        text-decoration: underline color(5);
                     }
 
                     .text-2 {
