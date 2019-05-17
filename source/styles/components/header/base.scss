@@ -132,24 +132,15 @@
 
                     &:hover {
 
-                        &.eye {
+                        $map: ('eye': 'b1h.png', 'pic': 'b2h.png', 'loc': 'b3h.png');
 
-                            &::before {
-                                content: url(/images/header/b1h.png);
-                            }
-                        }
+                        @each $class, $path in $map {
 
-                        &.pic {
+                            &.#{$class} {
 
-                            &::before {
-                                content: url(/images/header/b2h.png);
-                            }
-                        }
-
-                        &.loc {
-
-                            &::before {
-                                content: url(/images/header/b3h.png);
+                                &::before {
+                                    content: url(/images/header/#{$path});
+                                }
                             }
                         }
                     }
@@ -160,7 +151,6 @@
         .borger {
             height: 58px;
             padding: 14px 17px;
-            border: color(4) solid 1px;
             background-color: color(2);
 
             &::before {
@@ -186,6 +176,7 @@
                 display: flex;
                 z-index: 1;
                 flex-direction: row;
+                height: 100%;
             }
         }
 

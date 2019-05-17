@@ -22,5 +22,9 @@
             height: 100.9px;
             overflow: hidden;
         }
+
+        :nth-child(n + 6) {
+            display: none;
+        }
     }
 }

@@ -9,7 +9,7 @@
             .contentlist {
                 padding-left: 33px;
 
-                .mrExhibit {
+                .mrexhibit {
                     color: color(3);
                     font-family: 'Montserrat', sans-serif;
                     font-size: 18px;
@@ -78,10 +78,13 @@
         }
 
         .rblock-1 {
-            margin-right: 5px;
+            margin-right: 3px;
 
             a {
-                width: 57px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 58px;
                 height: 100%;
                 border-left: 1px solid color(4);
 
@@ -90,7 +93,6 @@
                     position: absolute;
                     width: 14px;
                     height: 23px;
-                    margin: 20px 22px;
                     color: color(3);
                 }
 
@@ -99,7 +101,6 @@
                     position: absolute;
                     width: 14px;
                     height: 23px;
-                    margin: 20px 22px;
                     color: color(3);
                 }
 
@@ -115,7 +116,6 @@
                 }
 
                 &:last-child {
-                    width: 56px;
                     border-right: 1px solid color(4);
                 }
             }
