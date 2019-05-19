@@ -419,13 +419,13 @@ body {
       height: 100%;
       border-left: 1px solid #707070; }
       .header .row-1 .wrapper .rblock-1 a.left::before {
-        content: url(/images/header/left.svg);
+        content: url(../images/header/left.svg);
         position: absolute;
         width: 14px;
         height: 23px;
         color: #FFFFFF; }
       .header .row-1 .wrapper .rblock-1 a.right::before {
-        content: url(/images/header/right.svg);
+        content: url(../images/header/right.svg);
         position: absolute;
         width: 14px;
         height: 23px;
@@ -502,13 +502,13 @@ body {
       height: 100%;
       border-left: 1px solid #707070; }
       .header .row-1 .wrapper .rblock-1 a.left::before {
-        content: url(/images/header/left.svg);
+        content: url(../images/header/left.svg);
         position: absolute;
         width: 14px;
         height: 23px;
         color: #FFFFFF; }
       .header .row-1 .wrapper .rblock-1 a.right::before {
-        content: url(/images/header/right.svg);
+        content: url(../images/header/right.svg);
         position: absolute;
         width: 14px;
         height: 23px;
@@ -585,13 +585,13 @@ body {
       height: 100%;
       border-left: 1px solid #707070; }
       .header .row-1 .wrapper .rblock-1 a.left::before {
-        content: url(/images/header/left.svg);
+        content: url(../images/header/left.svg);
         position: absolute;
         width: 14px;
         height: 23px;
         color: #FFFFFF; }
       .header .row-1 .wrapper .rblock-1 a.right::before {
-        content: url(/images/header/right.svg);
+        content: url(../images/header/right.svg);
         position: absolute;
         width: 14px;
         height: 23px;
