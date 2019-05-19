@@ -115,7 +115,7 @@ body {
           text-decoration: none;
           text-transform: uppercase; }
           .header .row .column-1 .contentlist .special::before {
-            content: url(images/header/shape12.svg);
+            content: url(../images/header/shape12.svg);
             margin-right: 2px;
             vertical-align: -4px; }
       .header .row .column-1 .buttonlist {
@@ -134,14 +134,14 @@ body {
             height: 44px;
             padding-top: 13px; }
             .header .row .column-1 .buttonlist .cl.eye::before {
-              content: url(images/header/b1.svg);
+              content: url(../images/header/b1.svg);
               padding-left: 9px; }
           .header .row .column-1 .buttonlist .cl.pic {
             right: 42px;
             width: 45px;
             height: 44px; }
             .header .row .column-1 .buttonlist .cl.pic::before {
-              content: url(images/header/b2.svg);
+              content: url(../images/header/b2.svg);
               padding-left: 10px; }
           .header .row .column-1 .buttonlist .cl.loc {
             right: 0;
@@ -149,20 +149,20 @@ body {
             height: 44px;
             border-right: none; }
             .header .row .column-1 .buttonlist .cl.loc::before {
-              content: url(images/header/b3.svg);
+              content: url(../images/header/b3.svg);
               padding-left: 12px; }
           .header .row .column-1 .buttonlist .cl:hover.eye::before {
-            content: url(images/header/b1h.png); }
+            content: url(../images/header/b1h.png); }
           .header .row .column-1 .buttonlist .cl:hover.pic::before {
-            content: url(images/header/b2h.png); }
+            content: url(../images/header/b2h.png); }
           .header .row .column-1 .buttonlist .cl:hover.loc::before {
-            content: url(images/header/b3h.png); }
+            content: url(../images/header/b3h.png); }
     .header .row .borger {
       height: 58px;
       padding: 14px 17px;
       background-color: #111111; }
       .header .row .borger::before {
-        content: url(images/header/iconcopy8.svg); }
+        content: url(../images/header/iconcopy8.svg); }
   .header .row-1 {
     display: flex;
     position: relative;
